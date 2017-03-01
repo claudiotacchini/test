@@ -1,0 +1,15 @@
+@include b(igx-navbar) {
+    @extend %igx-navbar-display;
+    
+    @include e(left-btn) {
+        @extend %igx-navbar-left-btn;
+
+        @include m(disabled) {
+            @extend %igx-navbar-left-btn--disabled;
+        }
+    }
+
+    @include e(title) {
+        @extend %igx-navbar-title;
+    }
+}

@@ -1,0 +1,33 @@
+%igx-avatar-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+%igx-avatar--rounded {
+    border-radius: 50% 50%;
+}
+
+%igx-avatar--small {
+    width: em(40px, 16px);
+    height: em(40px, 16px);
+}
+
+%igx-avatar--medium {
+    width: em(64px, 16px);
+    height: em(64px, 16px);
+}
+
+%igx-avatar--large {
+    width: em(88px, 16px);
+    height: em(88px, 16px);
+}
+
+%igx-avatar--icon {
+    background-color: #d1d1d1;
+}
+
+%igx-avatar--image {
+    background-color: transparent !important;
+}

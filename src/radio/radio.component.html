@@ -1,0 +1,14 @@
+<div class="igx-control">
+    <input class="igx-control__radio" type="radio" #radio
+        [attr.id]="id"
+        [attr.name]="name"
+        [attr.value]="value"
+        [attr.tabindex]="tabindex"
+        [attr.aria-checked]="checked"
+        [disabled]="disabled"
+        [checked]="checked"
+        (change)="onChange($event)"
+        (focus)="onFocus($event)"
+        (blur)="onBlur($event)"/>
+    <label class ="igx-control__label" [attr.for]="id"><ng-content></ng-content></label>
+</div>

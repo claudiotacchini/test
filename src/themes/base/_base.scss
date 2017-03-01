@@ -1,0 +1,12 @@
+// General application styling rules
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+$browser-context: 16px;
